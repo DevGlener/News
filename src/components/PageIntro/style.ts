@@ -2,8 +2,10 @@ import styled from 'styled-components'
 import { colors, fonts } from '../../styles/rules'
 
 export const ContainerPg = styled.div`
-  background-color: ${colors.border};
-  padding: 48px 0 0 24px;
+  margin: 48px 0;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: ${colors.wallpaper};
 
   h2 {
     color: ${colors.TagRed};
@@ -27,6 +29,5 @@ export const ContainerPg = styled.div`
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    padding-bottom: 48px;
   }
 `

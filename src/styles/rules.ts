@@ -4,7 +4,7 @@ export const colors = {
   overallColor: '#F8F9FB',
   gray: '#44474D',
   // color bg
-  border: '#EEEFF1', // bg
+  wallpaper: '#EEEFF1', // bg
   TagDarkBlue: '#000615',
   white: '#fff',
   newsletterBg: '#0b1f3a',
@@ -13,7 +13,8 @@ export const colors = {
   // colors Red
   TagRed: '#bb0027', // main
   TagRedHover: '#b61639', // hover
-  TagRedActive: '#930524' // active
+  TagRedActive: '#930524', // active
+  colorInput: '#e1e2e4'
 }
 
 export const fonts = {

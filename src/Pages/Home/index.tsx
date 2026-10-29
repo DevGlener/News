@@ -1,18 +1,24 @@
-import Footer from '../../components/footer'
-import Header from '../../components/Header'
-import LayoutNews from '../../components/LayoutNews/LayoutNews'
+import NewsLetter from '../../components/NewsLetter'
 import PageIntro from '../../components/PageIntro'
-import Tag from '../../components/Tag'
+import LayoutNews from '../../Layout/LayoutNews'
+import MainHeadline from '../../Layout/MainHeadline'
+import ShortNews from '../../Layout/ShortNews'
+import SoftNews from '../../Layout/SoftNews'
+import SubHeadline from '../../Layout/SubHeadline'
 
 const Home = () => {
   return (
-    <>
-      <Header />
-      <PageIntro />
-      <LayoutNews />
-      <Tag color="blue">Noticias</Tag>
-      <Footer />
-    </>
+    <LayoutNews>
+      <PageIntro
+        categoryPage="Visão Geral & Principais Notícias"
+        summary="Acompanhe os principais desdobramentos políticos, econômicos e globais com análise aprofundada."
+      />
+      <MainHeadline />
+      <ShortNews />
+      <SoftNews />
+      <SubHeadline />
+      <NewsLetter />
+    </LayoutNews>
   )
 }
 

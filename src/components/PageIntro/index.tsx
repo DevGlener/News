@@ -1,14 +1,16 @@
 import { ContainerPg } from './style'
 
-const PageIntro = () => {
+type PageIntro = {
+  categoryPage?: string
+  summary?: string
+}
+
+const PageIntro = ({ categoryPage, summary }: PageIntro) => {
   return (
     <ContainerPg className="container">
       <h2>EDITORIAL CENTRAL</h2>
-      <h3>Visão Geral & Principais Notícias</h3>
-      <p>
-        Acompanhe os principais desdobramentos políticos, econômicos e globais com análise
-        aprofundada.
-      </p>
+      {categoryPage && <h3>{categoryPage}</h3>}
+      {summary && <p>{summary} </p>}
     </ContainerPg>
   )
 }

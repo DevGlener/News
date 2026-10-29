@@ -6,24 +6,34 @@ export type HeaderProps = {
 }
 
 export const HeaderContainer = styled.header`
+  margin-bottom: 12px;
   padding: 16px 24px;
-  max-width: 1280px;
-  width: 100%;
   background-color: ${colors.overallColor};
-  box-shadow:
-    0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  img {
-    width: 128px;
-    height: 32px;
-  }
 
-  ul {
-    display: flex;
-    justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(1, 0, 0, 0.05);
+
+  > .container {
+    display: block;
+    background-color: ${colors.overallColor};
+  }
+  img,
+  img {
+    margin-bottom: 15px;
+    display: block;
+    background-color: ${colors.overallColor};
   }
 `
+
+export const ListaLinks = styled.ul`
+  background-color: ${colors.overallColor};
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`
+
 export const LinksPages = styled.li<HeaderProps>`
+  background-color: ${colors.overallColor};
   font-family: ${fonts.mainSource};
   white-space: nowrap;
   cursor: pointer;
@@ -31,5 +41,5 @@ export const LinksPages = styled.li<HeaderProps>`
   color: ${({ $selected }) => ($selected ? colors.white : colors.gray)};
   font-weight: ${({ $selected }) => ($selected ? 600 : 400)};
   border-radius: ${({ $selected }) => ($selected ? '8px' : '0')};
-  padding: 16px 16px;
+  padding: 8px 12px;
 `
