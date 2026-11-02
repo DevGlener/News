@@ -11,6 +11,7 @@ const Economy = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={3}
           categoryPage="Economia & Negócios"
           summary="Mercados, inflação, investimentos e o cenário corporativo nacional e internacional."
         />

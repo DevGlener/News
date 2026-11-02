@@ -11,9 +11,9 @@ const World = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={10}
           categoryPage="MUNDO & GEOPOLÍTICA"
-          summary="Conflitos, diplomacia e os grandes eventos internacionais que moldam o tabuleiro
-político global."
+          summary="Conflitos, diplomacia e os grandes eventos internacionais que moldam o tabuleiro político global."
         />
         <MainHeadline />
         <ShortNews />

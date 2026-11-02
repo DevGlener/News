@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <LayoutNews>
       <PageIntro
+        time={5}
         categoryPage="Visão Geral & Principais Notícias"
         summary="Acompanhe os principais desdobramentos políticos, econômicos e globais com análise aprofundada."
       />

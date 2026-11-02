@@ -10,6 +10,7 @@ const Science = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={7}
           categoryPage="Ciência & Saúde"
           summary="Pesquisas científicas, avanços médicos, meio ambiente e descobertas que moldam o futuro da humanidade."
         />

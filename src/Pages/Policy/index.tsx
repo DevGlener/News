@@ -10,6 +10,7 @@ const Policy = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={6}
           categoryPage="Politica"
           summary="Bastidores do poder, Congresso, Judiciário e decisões que movimentam Brasília."
         />

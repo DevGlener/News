@@ -7,49 +7,38 @@ export const NewsLetterContainer = styled.div`
   padding: 24px;
   grid-column: 3/4;
   grid-row: 5/6;
+  margin-bottom: 48px;
 
   .news-letter {
     color: ${colors.white};
-    background-color: ${colors.newsletterBg};
-    h3 {
-      margin: 16px 0;
-      background-color: ${colors.newsletterBg};
-      font-family: ${fonts.secondarySource};
-      font-size: 20;
-      font-weight: 600;
-      line-height: 28px;
-    }
-    p {
-      font-family: ${fonts.mainSource};
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 400;
-      background-color: ${colors.newsletterBg};
-      margin-bottom: 16px;
-      color: ${colors.textNewsLetter};
-    }
+    font-family: ${fonts.secondarySource};
+    font-size: 20;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  p {
+    font-family: ${fonts.mainSource};
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: ${colors.textNewsLetter};
   }
 `
 export const Title = styled.div`
-  svg {
-    background-color: ${colors.newsletterBg};
-  }
-  background-color: ${colors.newsletterBg};
   display: flex;
-  align-items: center;
   color: ${colors.TagRed};
   gap: 8px;
 
   h4 {
     font-family: ${fonts.mainSource};
-    background-color: ${colors.newsletterBg};
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    padding-bottom: 16px;
   }
 `
 export const SignUp = styled.div`
-  background-color: ${colors.newsletterBg};
   input {
     width: 100%;
     height: 42px;

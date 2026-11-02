@@ -13,27 +13,19 @@ export const HeaderContainer = styled.header`
   border-bottom: 1px solid #ccc;
   box-shadow: 0 4px 6px rgba(1, 0, 0, 0.05);
 
-  > .container {
-    display: block;
-    background-color: ${colors.overallColor};
-  }
-  img,
   img {
     margin-bottom: 15px;
     display: block;
-    background-color: ${colors.overallColor};
   }
 `
 
 export const ListaLinks = styled.ul`
-  background-color: ${colors.overallColor};
   display: flex;
   justify-content: space-between;
   align-items: center;
 `
 
 export const LinksPages = styled.li<HeaderProps>`
-  background-color: ${colors.overallColor};
   font-family: ${fonts.mainSource};
   white-space: nowrap;
   cursor: pointer;

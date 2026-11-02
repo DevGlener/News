@@ -6,7 +6,7 @@ const NewsLetter = () => {
     <NewsLetterContainer>
       <div className="news-letter">
         <Title>
-          <Mail />
+          <Mail size={20} />
           <h4>NEWSLETTER EXCLUSIVA</h4>
         </Title>
         <h3>Receba o resumo diário no seu e-mail</h3>

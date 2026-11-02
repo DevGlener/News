@@ -11,6 +11,7 @@ const Culture = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={2}
           categoryPage="Cultura & Artes"
           summary="Literatura, cinema, artes visuais, música e debates culturais. Uma imersão profunda na vanguarda artística e nos reflexos da sociedade contemporânea."
         />

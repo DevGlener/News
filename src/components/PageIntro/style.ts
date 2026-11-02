@@ -2,10 +2,23 @@ import styled from 'styled-components'
 import { colors, fonts } from '../../styles/rules'
 
 export const ContainerPg = styled.div`
-  margin: 48px 0;
+  padding: 48px 0;
   grid-column: 1/4;
   grid-row: 1/2;
   background-color: ${colors.wallpaper};
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  span {
+    color: ${colors.gray};
+    font-family: ${fonts.mainSource};
+    font-size: 12px;
+  }
+
+  div {
+    width: 80%;
+  }
 
   h2 {
     color: ${colors.TagRed};

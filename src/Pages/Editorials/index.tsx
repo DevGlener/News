@@ -11,6 +11,7 @@ const Editoriais = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={4}
           categoryPage="Opinião & Editoriais"
           summary="Artigos, ensaios e a visão dos nossos colunistas sobre os fatos que moldam o Brasil e o mundo."
         />

@@ -11,18 +11,15 @@ export const FooterContainer = styled.footer`
   ul {
     display: flex;
     gap: 24px;
-    background-color: ${colors.overallColor};
   }
 
   > .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: ${colors.overallColor};
   }
 
   p {
-    background-color: ${colors.overallColor};
     color: ${colors.gray};
     font-weight: 400;
     font-size: 14px;

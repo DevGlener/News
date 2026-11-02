@@ -11,7 +11,8 @@ const Technology = () => {
     <>
       <LayoutNews>
         <PageIntro
-          categoryPage="Tecnologia"
+          time={9}
+          categoryPage={'Tecnologia'}
           summary="Inovação, inteligência artificial, startups e o impacto digital na sociedade."
         />
         <MainHeadline />

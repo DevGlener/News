@@ -14,7 +14,8 @@ export const colors = {
   TagRed: '#bb0027', // main
   TagRedHover: '#b61639', // hover
   TagRedActive: '#930524', // active
-  colorInput: '#e1e2e4'
+  colorInput: '#e1e2e4',
+  colorBorder: '#EDEEF0'
 }
 
 export const fonts = {

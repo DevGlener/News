@@ -11,6 +11,7 @@ const Sport = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={8}
           categoryPage="ESPORTES"
           summary="Futebol nacional e internacional, olimpíadas, competições e análises detalhadas dos principais especialistas."
         />

@@ -11,6 +11,7 @@ const Brazil = () => {
     <>
       <LayoutNews>
         <PageIntro
+          time={1}
           categoryPage="BRASIL"
           summary="Fatos, reportagens especiais e o cotidiano dos estados brasileiros."
         />
