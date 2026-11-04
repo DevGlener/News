@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 import { colors, fonts } from '../../styles/rules'
-
-export type HeaderProps = {
-  $selected: boolean
-}
+import { NavLink } from 'react-router'
 
 export const HeaderContainer = styled.header`
   margin-bottom: 12px;
@@ -13,9 +10,9 @@ export const HeaderContainer = styled.header`
   border-bottom: 1px solid #ccc;
   box-shadow: 0 4px 6px rgba(1, 0, 0, 0.05);
 
-  img {
+  .image-logo {
     margin-bottom: 15px;
-    display: block;
+    display: inline-block;
   }
 `
 
@@ -25,13 +22,18 @@ export const ListaLinks = styled.ul`
   align-items: center;
 `
 
-export const LinksPages = styled.li<HeaderProps>`
+export const LinksPages = styled(NavLink)`
+  display: block;
   font-family: ${fonts.mainSource};
   white-space: nowrap;
-  cursor: pointer;
-  background-color: ${({ $selected }) => ($selected ? colors.newsletterBg : '')};
-  color: ${({ $selected }) => ($selected ? colors.white : colors.gray)};
-  font-weight: ${({ $selected }) => ($selected ? 600 : 400)};
-  border-radius: ${({ $selected }) => ($selected ? '8px' : '0')};
+  color: ${colors.gray};
+  font-weight: 400;
   padding: 8px 12px;
+
+  &.active {
+    background-color: ${colors.newsletterBg};
+    color: ${colors.white};
+    font-weight: 600;
+    border-radius: 8px;
+  }
 `

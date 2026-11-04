@@ -14,13 +14,13 @@
     "fix": "npm run lint:fix && npm run format"
   },
   "dependencies": {
+    "@gnews-io/gnews-io-js": "^3.1.0",
     "@reduxjs/toolkit": "^2.13.0",
     "lucide-react": "^1.61.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-redux": "^9.3.0",
     "react-router": "^8.5.0",
-    "react-router-dom": "^7.18.5",
     "styled-components": "^6.6.0"
   },
   "devDependencies": {

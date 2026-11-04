@@ -12,7 +12,7 @@ export const NewsLetterContainer = styled.div`
   .news-letter {
     color: ${colors.white};
     font-family: ${fonts.secondarySource};
-    font-size: 20;
+    font-size: 20px;
     font-weight: 600;
     line-height: 28px;
   }
